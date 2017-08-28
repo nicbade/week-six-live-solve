@@ -7,8 +7,14 @@
     <script src="/scripts/client.js"></script>
 </head>
 
-<body>
+<body ng-app="nameApp">
     <h1>Week 6 Live Solve</h1>
+    <div ng-controller="MessageController">
+        <input type="text" placeholder="name" ng-model="vm.newMessage.name">
+        <input type="text" placeholder="message" ng-model="vm.newMessage.message">
+        <p ng-repeat="name in vm.newMessage.list"></p>
+    </div>
+
 </body>
 
 </html>
