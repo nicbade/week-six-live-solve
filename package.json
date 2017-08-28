@@ -1,0 +1,26 @@
+{
+  "name": "week-six-live-solve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicbade/week-six-live-solve.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicbade/week-six-live-solve/issues"
+  },
+  "homepage": "https://github.com/nicbade/week-six-live-solve#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9"
+  }
+}
